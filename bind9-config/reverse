@@ -1,0 +1,12 @@
+$TTL 86400  ; Tiempo de vida en caché (en segundos)
+
+@      IN  SOA    ns1.javi.com. admin.javi.com. (
+                  2023101001 ; Número de serie
+                  3600       ; Tiempo de actualización (1 hora)
+                  1800       ; Tiempo de reintentos (30 minutos)
+                  604800     ; Tiempo de expiración (7 días)
+                  86400 )    ; Tiempo mínimo en caché (1 día)
+
+@	IN	NS	ns1.javi.com.
+@	IN	NS	ns2.javi.com.
+3	IN	PTR	ns1.javi.com.

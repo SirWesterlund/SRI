@@ -1,0 +1,9 @@
+zone "javi.com" {
+    type master;
+    file "/etc/bind/db.javi.com";
+};
+
+zone "45.23.56.in-addr.arpa" {
+    type master;
+    file "/etc/bind/reverse";
+};
