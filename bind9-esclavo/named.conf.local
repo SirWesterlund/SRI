@@ -1,0 +1,5 @@
+zone "javi.com" {
+    type slave;
+    masters { 172.17.0.3; };
+};
+
